@@ -18,9 +18,9 @@
 
 ## Description
 
-The Ecommerce Sports Store is a robust backend service for a modern online retail platform, built with Java and Spring Boot. It provides a complete and scalable foundation for managing products, brands, shopping carts, and orders.
+The Ecommerce Sports Store is a backend service for a online retail platform, built with Java and Spring Boot. It provides a complete foundation for managing products, brands, shopping carts, and orders.
 
-This application is designed with a clean, layered architecture and exposes a comprehensive RESTful API, making it easy to integrate with any frontend client (like React, Angular, or mobile apps) or other microservices.
+This application is designed with a clean, 3 layer architecture and exposes a comprehensive RESTful API, making it easy to integrate with any frontend client (like React, Angular, or mobile apps) or other microservices.
 
 ## Architecture
 
@@ -33,7 +33,7 @@ The application follows a classic three-layer architecture, ensuring a clean sep
 - **Shopping Basket:** Persistent, user-specific cart functionality (add, update, remove, view items).
 - **Order Management:** Complete order lifecycle from creation to retrieval and deletion.
 - **Layered Architecture:** Well-defined controller, service, and repository layers.
-- **Database Integration:** Seamlessly integrated with MySQL using Spring Data JPA.
+- **Database Integration:** Integrated with MySQL using Spring Data JPA.
 - **DTO Pattern:** Uses MapStruct for clean and efficient mapping between entities and API response models.
 
 ## Getting Started
@@ -48,19 +48,21 @@ The application follows a classic three-layer architecture, ensuring a clean sep
 ### Installation & Setup
 
 1. **Clone the repository:**
-	 ```sh
+
+```sh
 	 git clone https://github.com/surajbadhe/ecommece-store-spring.git
 	 cd ecommece-store-spring
-	 ```
+ ```
 
 2. **Configure the database:**
 	 - Create a MySQL database (e.g., `sports_store`).
 	 - Update the database URL, username, and password in `src/main/resources/application.yaml` or `application.properties`.
 
 3. **Build the project:**
-	 ```sh
+	 
+```sh
 	 mvn clean install
-	 ```
+```
 
 ## Usage
 
